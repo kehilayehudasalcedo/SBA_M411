@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+  <title>Task Management App</title>
+</head>
+
+<body>
+  <h1>Task Manager</h1>
+
+  <div class="form-box">
+    <!-- id1 -->
+    <input type="text" id="taskName" placeholder="Task Name"> 
+    <!-- id2 -->
+     <input type="text" id="taskCategory" placeholder="Category">
+    <!-- id3 -->
+     <input type="date" id="taskDeadline">
+    
+     <!-- id4 -->
+    <select id="taskStatus">
+      <option value="In Progress">In Progress</option>
+      <option value="Completed">Completed</option>
+    </select>
+
+    <!-- id5 -->
+    <button id="addTaskBtn">Add Task</button>
+
+  </div>
+
+  <div class="filter-box">
+    <label>Filter by Status:</label>
+    <!-- id6 -->
+    <select id="filterStatus">
+      <option value="All">All</option>
+      <option value="In Progress">In Progress</option>
+      <option value="Completed">Completed</option>
+      <option value="Overdue">Overdue</option>
+    </select>
+
+   <!-- id7 -->
+    <input type="text" id="filterCategory" placeholder="Filter by Category">
+  </div>
+
+    <!-- id8 -->
+  <ul id="taskList"></ul>
+
+</body>
+
+</html>
