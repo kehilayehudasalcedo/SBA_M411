@@ -1,4 +1,8 @@
-let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+let tasks = [];
+let savedTasks = localStorage.getItem("tasks");
+if (savedTasks !== null) {
+  tasks = JSON.parse(savedTasks);
+}
 
 document.getElementById("addTaskBtn").addEventListener("click", addTask);
 
