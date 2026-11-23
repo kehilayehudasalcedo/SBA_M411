@@ -1,6 +1,7 @@
 # Task Management App
 A dynamic web application built with HTML, CSS, and JavaScript that allows users to create tasks with deadlines, assign categories, filter tasks by status or category, automatically mark overdue tasks, and persist data using browser Local Storage.
-#Project Reflection
+
+# Project Reflection
 ## .1. Challenges faced during the project
 The main challenge I faced during this project was researching the available built-in methods for each JavaScript functionality, since we did not cover many of those specific methods during class. Figuring out which array, string, date, and DOM methods to use to filter tasks, check overdue dates, and save data required extra effort.
 ## .2. How I approached solving those challenges
